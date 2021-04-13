@@ -1,0 +1,71 @@
+<h3 class="text-center my-3">
+    Register for Internship
+</h3>
+
+<div class="container p-5">
+
+    <form action="internship_register" method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email ID</label>
+            <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter E-mail" required>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="contact">Contact Number</label>
+            <input type="number" name="contact" class="form-control" id="contact" aria-describedby="contactHelp" placeholder="Enter Contact Number" required>
+            <small id="contactHelp" class="form-text text-muted">We'll never share your contact with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="domain">Select Domain</label>
+            <select class="form-control" name="domain" id="domain" required>
+              <option selected>Choose...</option>
+              <option value="Web Designing and Development">Web Designing and Development</option>
+              <option value="Android and App Development">Android and App Development</option>
+              <option value="Graphic Designing">Graphic Designing</option>
+              <option value="SEO and Digital Marketing">SEO and Digital Marketing</option>
+              <option value="E-commerce Handling">E-commerce Handling</option>
+              <option value="Social Media Handling">Social Media Handling</option>
+              <option value="Cyber Security and Mechanism">Cyber Security and Mechanism</option>
+              <option value="Artificial Intelegence and Machine Learning">Artificial Intelegence and Machine Learning</option>
+              <option value="Technical HR Management">Technical HR Management</option>
+              <option value="Technical Marketing Management">Technical Marketing Management</option>
+              <option value="Technical Content Writing">Technical Content Writing</option>
+              <option value="Technical Research and Analysis">Technical Research and Analysis</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="qualification">Example select</label>
+            <select class="form-control" name="qualification" id="qualification" required>
+              <option selected>Choose...</option>
+              <option value="BCA">BCA</option>
+              <option value="MCA">MCA</option>
+              <option value="B.Tech">B.Tech</option>
+              <option value="M.tech">M.tech</option>
+              <option value="M.Sc (CS)">M.Sc (CS)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="pincode">Pincode</label>
+            <input type="number" name="pincode" class="form-control" id="pincode" placeholder="Your recedence Pincode" required>
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" name="city" class="form-control" id="city" placeholder="City" required>
+        </div>
+        <div class="form-group">
+            <label for="state">State</label>
+            <input type="text" name="state" class="form-control" id="state" placeholder="State" required>
+        </div>
+        <div class="form-group">
+            <label for="reference">Reference</label>
+            <input type="text" name="reference" class="form-control" id="reference" placeholder="Where did you here about us ?">
+        </div>        
+        
+        <button type="submit" class="btn btn-primary">Submit Application</button>
+    </form>
+
+</div>
